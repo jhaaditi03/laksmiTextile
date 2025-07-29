@@ -133,3 +133,14 @@ body {
 .dashboard-card:hover {
   background-color: #f8f8f8;
 }
+
+.footer {
+  background-color: #768;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+.footer a {
+  color: #00ffff;
+  text-decoration: none;
+}
