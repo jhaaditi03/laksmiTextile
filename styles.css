@@ -1,0 +1,135 @@
+/* styles.css */
+
+/* Reset and base styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+.header {
+  background-color: #768;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  height: 40px;
+  width: auto;
+}
+
+
+.nav-links a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Banner */
+.banner {
+  background-color: #cce6ff;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Product Grid */
+.product-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.product-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  height: 150px;
+  background-color: #eee;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-card button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.product-card button:hover {
+  background-color: #555;
+}
+
+/* Mission & Vision */
+.mission-vision {
+  padding: 2rem;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.mission-vision h2 {
+  margin-bottom: 0.5rem;
+}
+
+/* Dashboard */
+.dashboard {
+  padding: 2rem;
+}
+
+.dashboard h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 0 2rem;
+}
+
+.dashboard-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.dashboard-card:hover {
+  background-color: #f8f8f8;
+}
