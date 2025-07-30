@@ -163,3 +163,14 @@ body {
   color: #00ffff;
   text-decoration: none;
 }
+.cart-icon img {
+  width: 28px;
+  height: 28px;
+  margin-left: 15px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.cart-icon {
+  display: inline-block;
+}
