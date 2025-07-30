@@ -41,14 +41,33 @@ body {
   text-decoration: underline;
 }
 
-/* Banner */
-.banner {
-  background-color: #cce6ff;
-  padding: 2rem;
-  text-align: center;
-  font-size: 1.2rem;
-  font-weight: bold;
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 400px;
+  margin-bottom: 20px;
 }
+
+.slides {
+  display: flex;
+  width: 300%;
+  animation: slide 12s infinite;
+}
+
+.slide {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+@keyframes slide {
+  0%   { transform: translateX(0); }
+  33%  { transform: translateX(-100%); }
+  66%  { transform: translateX(-200%); }
+  100% { transform: translateX(0); }
+}
+
 
 /* Product Grid */
 .product-grid {
